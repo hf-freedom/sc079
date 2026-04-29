@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 31px;
+}
+
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.card-stat {
+  text-align: center;
+}
+
+.card-stat .number {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1890ff;
+}
+
+.card-stat .label {
+  color: #666;
+  margin-top: 8px;
+}
+
+.status-tag {
+  font-size: 12px;
+}
